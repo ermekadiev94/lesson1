@@ -1,12 +1,11 @@
 void main() {
-  var name = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  var a = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-  for (int a in name) {
-    var result = [];
-    if (a.isEven) {
-      print(a);
-      result.add(a);
+  var result = [];
+
+  for (int i = 0; i < a.length; i++) {
+    if (a[i].isEven) {
+      result.add(a[i]);
     }
-    print(result);
   }
 }
