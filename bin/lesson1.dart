@@ -50,14 +50,51 @@ void main() {
   // print(result2);
 
   // Задание 5
-  var a = [
-    'a',
-    'b',
-    'c',
-  ];
-  var b = [1, 2, 3];
-  a.add(b.toString());
-  print(a);
-  //Задание 6
-// var lang = ''
+  // var a = [
+  //   'a',
+  //   'b',
+  //   'c',
+  // ];
+  // var b = [1, 2, 3];
+  // a.add(b.toString());
+  // print(a);
+
+  // Задание 6
+//   var lang = 'eng';
+//   var arr = [];
+//
+//   List ru = [
+//     'Понедельник',
+//     'Вторник',
+//     'Среда',
+//     'Четверг',
+//     'Пятница',
+//     'Суббота',
+//     'Воскресенье'
+//   ];
+//
+//   List eng = [
+//     'Monday',
+//     'Tuesday',
+//     'Wednesday',
+//     'Thursday',
+//     'Friday',
+//     'Saturday',
+//     'Sunday'
+//   ];
+//   if (lang == 'ru') {
+//     arr.add(ru);
+//   } else if (lang == 'eng') {
+//     arr.add(eng);
+//   }
+//   print(arr);
+
+  // Доп. Задание
+  // var b = 12;
+  // var a = b * 1;
+  // if (a >= 0 && a <= 11) {
+  //   print('$b x 1 = $a');
+  // } else {
+  //   print('Your number is negative or greater than 11');
+  // }
 }
